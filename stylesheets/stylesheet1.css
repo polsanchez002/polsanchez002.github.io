@@ -1,15 +1,80 @@
 body {
-    background-image: url(../images/background/background1.jpg);
+    background-image: url(../images/background/background1.jpg); 
     background-color: black;    
 }
  h1 {
-        font-family: 'Times', cursive;
-        color: white;
-        font-size: 50px;
-        text-align: center;
-}
-h2 {
-    font-family: 'Calibri', sans-serif;
+    font-family: 'Times', cursive;
     color: white;
+    font-size: 50px;
     text-align: center;
+}
+
+.link{
+    padding: 5px;
+    opacity: 90%;
+}
+
+.link:hover{
+    transform: scale(1.5);
+    color: 255,255,255,70;
+    transition: 0.3s ease-out;
+    opacity: 100%;
+}
+
+#name{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+#profession{
+    text-align: center;
+}
+
+.imgCenter{
+    text-align: center;
+}
+
+.socialImg{
+    text-align: center;
+    display: inherit;
+    padding-right: 10px;
+}
+
+.mapache{
+    display: inline;
+}
+
+.credit{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    
+}
+
+.credit:hover{
+    transform: scale(1.5);
+    transition: 0.3 ease-out;
+    color: orange;
+    opacity: 100%;
+}
+
+.expl{
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.expl:hover{
+    transform: scale(1.5);
+    transition: 0.3 ease-out;
+    color: orange;
+    opacity: 100%;
 }
