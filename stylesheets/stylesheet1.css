@@ -1,7 +1,10 @@
 body {
-    background-image: url(../images/background/background1.jpg); 
+    background-image: url(../images/background/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
     background-color: black;
 }
+
  h1 {
     font-family: 'Times', cursive;
     color: white;
@@ -52,15 +55,14 @@ body {
     font-style: italic;
     color: white;
     text-decoration: none;
-    opacity: 80%;
-    
+    opacity: 80%;    
 }
 
 .credit:hover{
-    transform: scale(1.5);
     transition: 0.3 ease-out;
     color: orange;
     opacity: 100%;
+    text-decoration: none;
 }
 
 .expl{
@@ -77,4 +79,24 @@ body {
     transition: 0.3 ease-out;
     color: orange;
     opacity: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.Button{
+    text-align: center;
+
+}
+
+p{
+   font-family: 'PT Sans', sans-serif;
+   color: white;
 }
