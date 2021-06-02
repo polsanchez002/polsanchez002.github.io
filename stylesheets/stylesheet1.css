@@ -5,8 +5,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-    background-color: #434343;
-    background-image:linear-gradient(#434343, #282828);
+  background-color: #434343;
+  background-image:linear-gradient(#434343, #282828);
 }
 #content{
     background-color: transparent;
@@ -14,6 +14,9 @@ body {
   height:100%;
   background-size:50px 50px;
 }
+/*body{
+background-color: black;
+}*/
  h1 {
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -102,7 +105,12 @@ body {
 
 .Button{
     text-align: center;
+    transform: scale(2);
+}
 
+.Button:hover{
+    text-align: center;
+    transform: scale(2.5);
 }
 
 p{
@@ -146,4 +154,10 @@ footer{
 
 #main{
     text-decoration: none;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
 }
