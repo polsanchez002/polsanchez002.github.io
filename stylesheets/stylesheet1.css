@@ -150,6 +150,8 @@ footer{
 .textsobremi{
     font-family: 'Montserrat', 'sans-serif';
     text-align: justify;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 #main{
