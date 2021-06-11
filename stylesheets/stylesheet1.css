@@ -116,6 +116,9 @@ background-color: black;
 p{
    font-family: 'PT Sans', sans-serif;
    color: white;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
 }
 
 h2{
@@ -133,6 +136,7 @@ nav{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     padding: 20px;
+    text-align: center;
 }
 
 .menu:hover{
@@ -158,8 +162,11 @@ footer{
     text-decoration: none;
 }
 
-p{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 20px;
+.contactes{
+text-align: center;
+display: inline;
+}
+
+.revisio{
+    font-size: 17px;
 }
